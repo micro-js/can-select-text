@@ -1,0 +1,15 @@
+{
+  "name": "@f/can-select-text",
+  "description": "Check if an element can contain selectable text",
+  "repository": "git://github.com/micro-js/can-select-text.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
